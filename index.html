@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Сантехник в Батуми — Сантехнические услуги 24/7</title>
+<meta name="description" content="Сантехник в Батуми. Ремонт труб, кранов, унитазов, бойлеров, устранение протечек. Выезд по Батуми.">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#172033;
+  background:#f5f8fc;
+  line-height:1.6
+}
+header{
+  background:#0b6efd;
+  color:white;
+  padding:16px 20px;
+  position:sticky;
+  top:0;
+  z-index:10;
+  box-shadow:0 2px 12px rgba(0,0,0,.15)
+}
+.nav{
+  max-width:1100px;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:15px
+}
+.logo{
+  font-size:21px;
+  font-weight:bold
+}
+.nav a{
+  color:white;
+  text-decoration:none;
+  margin-left:15px
+}
+.hero{
+  background:linear-gradient(135deg,#0877ff,#0047a8);
+  color:white;
+  text-align:center;
+  padding:75px 20px
+}
+.hero h1{
+  font-size:42px;
+  line-height:1.15;
+  margin:0 0 18px
+}
+.hero p{
+  font-size:20px;
+  max-width:700px;
+  margin:0 auto 28px
+}
+.buttons{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:12px
+}
+.btn{
+  display:inline-block;
+  padding:14px 24px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:bold;
+  border:0;
+  cursor:pointer;
+  font-size:16px
+}
+.btn-white{
+  background:white;
+  color:#075ecb
+}
+.btn-green{
+  background:#20c76a;
+  color:white
+}
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:55px 20px
+}
+.title{
+  text-align:center;
+  margin-bottom:35px
+}
+.title h2{
+  font-size:32px;
+  margin:0 0 10px
+}
+.title p{
+  color:#64748b
+}
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px
+}
+.card{
+  background:white;
+  padding:28px;
+  border-radius:16px;
+  box-shadow:0 5px 20px rgba(15,23,42,.08)
+}
+.icon{
+  font-size:40px
+}
+.card h3{
+  margin:10px 0
+}
+.price{
+  color:#0b6efd;
+  font-weight:bold
+}
+.booking{
+  background:white;
+  border-radius:18px;
+  box-shadow:0 5px 25px rgba(15,23,42,.1);
+  max-width:650px;
+  margin:auto;
+  padding:30px
+}
+input,textarea,select{
+  width:100%;
+  padding:14px;
+  margin:7px 0 15px;
+  border:1px solid #d4dce8;
+  border-radius:9px;
+  font-size:16px
+}
+textarea{
+  min-height:110px;
+  resize:vertical
+}
+.booking button{
+  width:100%;
+  background:#0b6efd;
+  color:white;
+  border:0;
+  padding:16px;
+  border-radius:10px;
+  font-size:17px;
+  font-weight:bold
+}
+.contact{
+  background:#eaf3ff;
+  text-align:center
+}
+.contact-box{
+  font-size:20px
+}
+footer{
+  background:#101827;
+  color:#cbd5e1;
+  text-align:center;
+  padding:30px 20px
+}
+@media(max-width:750px){
+  .nav a{display:none}
+  .hero h1{font-size:32px}
+  .hero p{font-size:17px}
+  .cards{grid-template-columns:1fr}
+  .container{padding:40px 15px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">🔧 Сантехник Батуми</div>
+    <div>
+      <a href="#services">Услуги</a>
+      <a href="#booking">Заявка</a>
+      <a href="#contact">Контакты</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Сантехник в Батуми</h1>
+  <p>Быстрый выезд по Батуми. Ремонт сантехники, устранение протечек и аварийные работы.</p>
+
+  <div class="buttons">
+    <a class="btn btn-white" href="#booking">📋 Оставить заявку</a>
+    <a class="btn btn-green" href="#contact">📞 Позвонить</a>
+  </div>
+</section>
+
+<section id="services" class="container">
+  <div class="title">
+    <h2>Наши услуги</h2>
+    <p>Поможем с бытовыми и аварийными сантехническими работами</p>
+  </div>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="icon">🚿</div>
+      <h3>Ремонт сантехники</h3>
+      <p>Краны, смесители, сифоны, трубы и другая сантехника.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🚽</div>
+      <h3>Ремонт унитаза</h3>
+      <p>Замена арматуры, устранение течи, установка и ремонт.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔥</div>
+      <h3>Бойлеры</h3>
+      <p>Установка, подключение и ремонт водонагревателей.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">💧</div>
+      <h3>Протечки</h3>
+      <p>Быстрое устранение течей воды и аварийных ситуаций.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔧</div>
+      <h3>Монтаж труб</h3>
+      <p>Замена и монтаж водопроводных и канализационных труб.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🏠</div>
+      <h3>Выезд по Батуми</h3>
+      <p>Работаем по Батуми и ближайшим районам.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="booking" class="container">
+  <div class="title">
+    <h2>Заказать сантехника</h2>
+    <p>Оставьте заявку — свяжемся с вами</p>
+  </div>
+
+  <div class="booking">
+    <form onsubmit="sendWhatsApp(event)">
+
+      <label>Ваше имя</label>
+      <input id="name" type="text" placeholder="Введите имя" required>
+
+      <label>Телефон</label>
+      <input id="phone" type="tel" placeholder="+995 ..." required>
+
+      <label>Что нужно сделать?</label>
+      <select id="service">
+        <option>Ремонт сантехники</option>
+        <option>Протечка воды</option>
+        <option>Ремонт унитаза</option>
+        <option>Ремонт бойлера</option>
+        <option>Замена труб</option>
+        <option>Другое</option>
+      </select>
+
+      <label>Комментарий</label>
+      <textarea id="message" placeholder="Опишите проблему"></textarea>
+
+      <button type="submit">📲 Отправить заявку в WhatsApp</button>
+
+    </form>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="title">
+      <h2>Свяжитесь с нами</h2>
+      <p>Сантехнические работы в Батуми</p>
+    </div>
+
+    <div class="contact-box">
+      <p>📍 Батуми, Грузия</p>
+      <p>📞 Телефон: <strong>+995 XXX XXX XXX</strong></p>
+      <p>🕐 Работаем ежедневно</p>
+
+      <div class="buttons">
+        <a class="btn btn-green" href="#booking">Оставить заявку</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Сантехник в Батуми. Все права защищены.
+</footer>
+
+<script>
+function sendWhatsApp(event){
+  event.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const service = document.getElementById("service").value;
+  const message = document.getElementById("message").value;
+
+  const text =
+    "Здравствуйте! Хочу заказать сантехника в Батуми.%0A%0A" +
+    "Имя: " + encodeURIComponent(name) + "%0A" +
+    "Телефон: " + encodeURIComponent(phone) + "%0A" +
+    "Услуга: " + encodeURIComponent(service) + "%0A" +
+    "Проблема: " + encodeURIComponent(message);
+
+  /*
+   * ВАЖНО:
+   * Ниже вместо 995XXXXXXXXX нужно поставить
+   * настоящий номер WhatsApp.
+   */
+  window.location.href =
+    "https://wa.me/995XXXXXXXXX?text=" + text;
+}
+</script>
+
+</body>
+</html>
